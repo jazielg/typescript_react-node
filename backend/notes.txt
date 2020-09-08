@@ -1,0 +1,19 @@
+yarn add -D typescript
+
+# Add express and types for express
+yarn add express
+yarn add @types/express -D
+
+# run server
+yarn tsc src/index.ts
+node src/index.js
+
+# Arquivo de configuração do typescript
+yarn tsc --init
+# Converter arquivos ts para js na pasta dist (configurar no tsconfig.json a pasta)
+yarn tsc
+
+yarn add ts-node-dev -D
+
+yarn add cors
+yarn add @types/cors -D
